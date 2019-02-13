@@ -6,61 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>YI HE's Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
-<body style="background-image:url(images/gravel.png);">
-    <div class="container-fluid bg-white border-bottom shadow-sm">
-        <div class="row align-items-center">
-            <div class="col-lg-2 col-sm-2 col-2">
-                <p class="mt-3 bg-success text-white text-center" style="height: 30px; width: 100px">
-                    YI HE
+<body>
+    <main role="main">
+        <div class="jumbotron">
+            <div class="container">
+                <img src="img/profile.jpg" class="img-fluid rounded float-right w-25" alt="Responsive image">
+                <h1 class="display-3">Hi, I'm YI</h1>
+
+                <p>I'm a Software Engineer attending coding bootcamp for web development. <i class="far fa-smile-wink"></i> </p>
+                <p>
+                    <span>
+                        <a class="btn btn-secondary fab fa-github-square fa-2x" href="https://github.com/hyryo513" target="_blank" data-toggle="tooltip" title="GitHub Profile" data-placement="bottom"></a>
+                    </span>
+                    <span>
+                        <a class="btn btn-secondary fab fa-linkedin fa-2x" href="https://www.linkedin.com/in/yiheinfosys/" target="_blank" data-toggle="tooltip" title="LinkedIn Profile" data-placement="bottom"></a>
+                    </span>
+                    <span>
+                        <button class="btn btn-secondary fa fa-envelope fa-2x" data-toggle="tooltip" title="henry.heyi513@gmail.com" data-placement="bottom"></button>
+                    </span>
+                    <span>
+                        <button class="btn btn-secondary fas fa-phone-square fa-2x" data-toggle="tooltip" title="Phone Number" data-placement="bottom"></button>
+                    </span>
+                    <span>
+                        <a class="btn btn-secondary far fa-file-pdf fa-2x" data-toggle="tooltip" title="Resume" data-placement="bottom" href="asset/Profile.pdf" download="YI's Resume" target="_blank"></a>
+                    </span>     
                 </p>
             </div>
-            <div class="col-lg-7 col-sm-6 col-5"></div>    
-            <div class="col-lg-3 col-sm-4 col-5"> 
-                <div class="navbar navbar-expand-lg navbar-light bg-light">   
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
         </div>
-    </div>
-    <div class="container bg-white mt-2">
-            <div class="row pl-3 pt-3">
-                <h1 class="text-success">About Me</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2><a href="https://hyryo513.github.io/KidsMathGame/" target="_blank" class="text-dark nav-link pl-0">Kid's Math Game</a></h2>
+                    <p>
+                        I coded this game for my 5 years old boy.
+                        <ul>
+                            <li>There are 6 basic math questions in total.</li>
+                            <li>You have 10 seconds to answer each of them.</li>
+                            <li>You can see the results any time you want and start over then.</li>
+                        </ul>
+                    </p>
+                    <p><a class="btn btn-secondary" href="https://github.com/hyryo513/KidsMathGame" target="_blank">Download »</a></p>
+                </div>
+                <div class="col-md-4">
+                        <h2><a href="https://hyryo513.github.io/RPS-MultiplePlayers/" target="_blank" class="text-dark nav-link pl-0">Rock Paper Scissors</a></h2>
+                        <p>
+                            <ul>
+                                <li>This version supports two players from different browsers leveraging FireBase DB.</li>
+                                <li>Following the on-screen instructions to play the game.</li>
+                                <li>Having fun with your friend and don't get addicted to this game.</li>
+                            </ul>
+                        </p>
+                        <p><a class="btn btn-secondary" href="https://github.com/hyryo513/RPS-MultiplePlayers" target="_blank">Download »</a></p>
+                </div>
+                <div class="col-md-4">
+                        <h2><a href="https://iceberg09.github.io/amazing-rebels/index.html" target="_blank" class="text-dark nav-link pl-0">Fly Buy</a></h2>
+                        <p>
+                            <ul>
+                                <li>An app intended for the budget friendly, spontaneous traveler.</li>
+                                <li>Searching for the cheapest round trip flights from users location.</li>
+                                <li>Finding events to attend and current weather at users destination.</li>
+                            </ul>
+                        </p>
+                        <p><a class="btn btn-secondary" href="https://github.com/hyryo513/flybuycopy" target="_blank">Download »</a></p>
+                </div>
             </div>
             <hr>
-            <div class="row">
-                <div class="span12">
-                    <img src="https://via.placeholder.com/150" class="img-responsive float-left mx-3">
-                    <p class="mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque, hic rem dicta, veniam voluptates praesentium ipsum sunt odio rerum, qui quasi ea non magni maiores quos nam iste. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit animi sequi iusto laborum culpa quasi reiciendis asperiores mollitia suscipit nam dicta ex quisquam, sint amet eligendi ad provident fuga deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. At molestiae ducimus iusto eligendi temporibus corrupti minus architecto nesciunt rem? Explicabo debitis adipisci dolores optio ex, provident voluptas quisquam ipsam tempore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita ea at repudiandae asperiores eaque quidem ipsam, laudantium nisi, cum fugit vitae aut culpa dignissimos error, nemo saepe consectetur excepturi modi.</p> 
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-12">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque, hic rem dicta, veniam voluptates praesentium ipsum sunt odio rerum, qui quasi ea non magni maiores quos nam iste. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit animi sequi iusto laborum culpa quasi reiciendis asperiores mollitia suscipit nam dicta ex quisquam, sint amet eligendi ad provident fuga deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. At molestiae ducimus iusto eligendi temporibus corrupti minus architecto nesciunt rem? Explicabo debitis adipisci dolores optio ex, provident voluptas quisquam ipsam tempore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita ea at repudiandae asperiores eaque quidem ipsam, laudantium nisi, cum fugit vitae aut culpa dignissimos error, nemo saepe consectetur excepturi modi.</p>
-                </div>
-            </div>
         </div>
-        <footer class="container-fluid fixed-bottom bg-dark border-top border-success">
-                  <p class="text-center text-muted">Copyright</p>
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+            $(document).ready(function(){
+              $('[data-toggle="tooltip"]').tooltip(); 
+            });
+    </script>
 </body>
 </html>
